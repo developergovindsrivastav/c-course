@@ -10,8 +10,8 @@ class test
     int b;
 
 public:
-    // test(int x, int y) : a(x), b(y)
-    // test(int i, int j) : b(j), a(i+b) order according to varible
+    // ?test(int x, int y) : a(x), b(y)
+    // ! test(int i, int j) : b(j), a(i+b) order according to varible
     test(int i, int j) : a(i), b(a + j)
     {
         cout << "constructor is called" << endl;
