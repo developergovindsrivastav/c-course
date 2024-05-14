@@ -29,5 +29,5 @@ for(int i=1;i<5;i++){
     ptrtemp->getdata();
     ptrtemp++;
 }
-return 0;
+return 0;   
 }
